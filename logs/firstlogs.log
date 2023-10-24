@@ -1,0 +1,300 @@
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - Method public java.lang.String com.restassured.test.helper.ReusableMethodsHelper.LoginAPITC1() has a @Test annotation but also a return value: ignoring it. Use <suite allow-return-values="true"> to fix this
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 19 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Users\manis\AppData\Local\Temp\testng-eclipse--427136395\testng-customsuite.xml
+
+20231024 13:38:36 INFO  [main] log4testng.Logger Logger.java112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+20231024 13:38:37 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java143 - createUserTC6 Execution started
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - Method public java.lang.String com.restassured.test.helper.ReusableMethodsHelper.LoginAPITC1() has a @Test annotation but also a return value: ignoring it. Use <suite allow-return-values="true"> to fix this
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Users\manis\AppData\Local\Temp\testng-eclipse-1410347731\testng-customsuite.xml
+
+20231024 13:39:50 INFO  [main] log4testng.Logger Logger.java112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+20231024 13:39:51 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java143 - createUserTC6 Execution started - Step1
+20231024 13:40:13 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6af5b246: 0 ms
+20231024 13:40:13 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@365afe87: 33 ms
+20231024 13:40:13 ERROR [main] log4testng.Logger Logger.java165 - C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+20231024 13:40:13 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.jq.Main@415d88de: 49 ms
+20231024 13:40:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@1f71194d: 14 ms
+20231024 13:40:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@f613067: 9 ms
+20231024 13:40:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3c19592c: 8 ms
+20231024 13:40:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@385d819: 13 ms
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - Method public java.lang.String com.restassured.test.helper.ReusableMethodsHelper.LoginAPITC1() has a @Test annotation but also a return value: ignoring it. Use <suite allow-return-values="true"> to fix this
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Users\manis\AppData\Local\Temp\testng-eclipse-1072182451\testng-customsuite.xml
+
+20231024 13:42:42 INFO  [main] log4testng.Logger Logger.java112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+20231024 13:42:43 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java143 - createUserTC6 Execution started - Step1
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@33e0c716: 0 ms
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@76973a6: 24 ms
+20231024 13:42:49 ERROR [main] log4testng.Logger Logger.java165 - C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\testng-reports.css
+java.nio.file.FileAlreadyExistsException: C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\testng-reports.css
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.jq.Main@6403a4a5: 38 ms
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@3f857e08: 10 ms
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@51ff3c4b: 7 ms
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f9b21d6: 8 ms
+20231024 13:42:49 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@450f0235: 9 ms
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - Method public java.lang.String com.restassured.test.helper.ReusableMethodsHelper.LoginAPITC1() has a @Test annotation but also a return value: ignoring it. Use <suite allow-return-values="true"> to fix this
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 9 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:45:04 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:45:05 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Users\manis\AppData\Local\Temp\testng-eclipse-1470613746\testng-customsuite.xml
+
+20231024 13:45:05 INFO  [main] log4testng.Logger Logger.java112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+20231024 13:45:05 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java143 - createUserTC6 Execution started - Step1
+20231024 13:45:11 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java146 - createUserTC6 Execution started
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5423a17: 1 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7c226095: 27 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.jq.Main@6ac756b: 51 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@7ff6804a: 12 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@105dc04d: 10 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@3e2d8623: 7 ms
+20231024 13:45:14 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@15f861ee: 16 ms
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - Method public java.lang.String com.restassured.test.helper.ReusableMethodsHelper.LoginAPITC1() has a @Test annotation but also a return value: ignoring it. Use <suite allow-return-values="true"> to fix this
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Users\manis\AppData\Local\Temp\testng-eclipse-7337058\testng-customsuite.xml
+
+20231024 13:46:11 INFO  [main] log4testng.Logger Logger.java112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+20231024 13:46:16 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java146 - createUserTC6 Execution started
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6cd2cb2: 0 ms
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@23bd047f: 26 ms
+20231024 13:46:17 ERROR [main] log4testng.Logger Logger.java165 - C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.jq.Main@377dbc50: 39 ms
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@17d76ebb: 11 ms
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@7e2c6fd6: 11 ms
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6501b105: 9 ms
+20231024 13:46:17 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@70d5d96b: 12 ms
+20231024 13:47:21 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\suites\restassuredapitest.xml
+
+20231024 13:47:22 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java39 - LoginAPITC2 Execution started
+20231024 13:47:26 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java146 - createUserTC6 Execution started
+20231024 13:47:27 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java686 - deleteUserByIDTC24 Execution started
+20231024 13:47:28 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java702 - deleteUserByIDTC24 Execution ended
+20231024 13:47:28 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java242 - getAllUerTC9 Execution started
+20231024 13:47:30 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java269 - getAllUerTC9 Execution ended
+20231024 13:47:30 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java119 - invalidSeverAddressNameTC5 Execution started
+20231024 13:47:32 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java135 - invalidSeverAddressNameTC5 Execution ended
+20231024 13:47:32 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java544 - updateUserEmailAPITC19 Execution started
+20231024 13:47:32 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java547 - updateUserEmailAPITC19 Execution started
+20231024 13:47:33 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java564 - updateUserEmailAPITC19 Execution ended
+20231024 13:47:33 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java573 - updateUserLocationAPITC20 Execution started
+20231024 13:47:35 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java593 - updateUserLocationAPITC20 Execution ended
+20231024 13:47:35 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java629 - updateUserNameAndEmailAPITC22 Execution started
+20231024 13:47:37 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java649 - updateUserNameAndEmailAPITC22 Execution ended
+20231024 13:47:37 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java174 - createUserTC7 Execution started
+20231024 13:47:38 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java199 - createUserTC7 Execution ended
+20231024 13:47:38 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java279 - getAllUerTC10 Execution started
+20231024 13:47:40 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java306 - getAllUerTC10 Execution ended
+20231024 13:47:40 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java316 - getAllUerTC11 Execution started
+20231024 13:47:41 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java332 - getAllUerTC11 Execution ended
+20231024 13:47:41 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java341 - getAllUerTC12 Execution started
+20231024 13:47:43 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java361 - getAllUerTC12 Execution ended
+20231024 13:47:43 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java370 - getAllUerTC13 Execution started
+20231024 13:47:44 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java386 - getAllUerTC13 Execution ended
+20231024 13:47:44 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java395 - getAllUerTC14 Execution started
+20231024 13:47:46 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java415 - getAllUerTC14 Execution ended
+20231024 13:47:46 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java424 - getAllUerTC15 Execution started
+20231024 13:47:47 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java446 - getAllUerTC15 Execution ended
+20231024 13:47:47 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java455 - getAllUerTC16 Execution started
+20231024 13:47:49 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java480 - getAllUerTC16 Execution ended
+20231024 13:47:49 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java489 - getAllUerTC17 Execution started
+20231024 13:47:50 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java506 - getAllUerTC17 Execution ended
+20231024 13:47:50 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java93 - invalidDomainNameTC4 Execution started
+20231024 13:47:51 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java111 - invalidDomainNameTC4 Execution ended
+20231024 13:47:51 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java66 - invalidProtocolTC3 Execution started
+20231024 13:47:52 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java80 - invalidProtocolTC3 Execution ended
+20231024 13:47:52 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java515 - updateUserNameAPITC18 Execution started
+20231024 13:47:53 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java535 - updateUserNameAPITC18 Execution ended
+20231024 13:47:53 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java601 - updateUserNameAndLocationAPITC21 Execution started
+20231024 13:47:54 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java621 - updateUserNameAndLocationAPITC21 Execution ended
+20231024 13:47:54 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java657 - updateUserNameAndLocationAPITC23 Execution started
+20231024 13:47:56 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java677 - updateUserNameAndLocationAPITC23 Execution ended

@@ -33,7 +33,7 @@ public class ReusableMethodsHelper {
 	}
 	
 	//TC1- Login API -Positive
-	@Test
+	@Test(priority = 1)
 	public String LoginAPITC1() {
 		String extractedtoken;
 		

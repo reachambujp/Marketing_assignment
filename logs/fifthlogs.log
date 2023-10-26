@@ -1,0 +1,110 @@
+20231025 23:04:01 INFO  [main] log4testng.Logger Logger.java112 - [TestNG] Running:
+  C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\suites\restassuredapitest.xml
+
+20231025 23:04:02 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:02 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java49 - LoginAPITC2 Execution started
+20231025 23:04:05 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java25 - Test 'LoginAPITC2' FAILED
+20231025 23:04:05 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:05 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java81 - invalidProtocolTC3 Execution started
+20231025 23:04:06 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java95 - invalidProtocolTC3 Execution ended
+20231025 23:04:06 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'invalidProtocolTC3' PASSED
+20231025 23:04:06 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:06 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java113 - invalidDomainNameTC4 Execution started
+20231025 23:04:07 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java131 - invalidDomainNameTC4 Execution ended
+20231025 23:04:07 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'invalidDomainNameTC4' PASSED
+20231025 23:04:07 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:07 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java144 - invalidSeverAddressNameTC5 Execution started
+20231025 23:04:08 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java160 - invalidSeverAddressNameTC5 Execution ended
+20231025 23:04:08 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'invalidSeverAddressNameTC5' PASSED
+20231025 23:04:08 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:09 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java176 - createUserTC6 Execution started
+20231025 23:04:10 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java196 - createUserTC6 Execution ended
+20231025 23:04:10 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'createUserTC6' PASSED
+20231025 23:04:10 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:10 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java209 - createUserTC7 Execution started
+20231025 23:04:11 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java234 - createUserTC7 Execution ended
+20231025 23:04:11 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'createUserTC7' PASSED
+20231025 23:04:11 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:11 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java247 - createUserDuplicateUserCreationTC8 Execution started
+20231025 23:04:13 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java272 - createUserDuplicateUserCreationTC8 Execution ended
+20231025 23:04:13 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'createUserDuplicateUserCreationTC8' PASSED
+20231025 23:04:13 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:13 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java286 - getAllUerTC9 Execution started
+20231025 23:04:15 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java313 - getAllUerTC9 Execution ended
+20231025 23:04:15 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC9' PASSED
+20231025 23:04:15 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:15 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java328 - getAllUerTC10 Execution started
+20231025 23:04:17 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java355 - getAllUerTC10 Execution ended
+20231025 23:04:17 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC10' PASSED
+20231025 23:04:17 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:17 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java370 - getAllUerTC11 Execution started
+20231025 23:04:18 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java386 - getAllUerTC11 Execution ended
+20231025 23:04:18 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC11' PASSED
+20231025 23:04:18 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:18 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java400 - getAllUerTC12 Execution started
+20231025 23:04:20 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java420 - getAllUerTC12 Execution ended
+20231025 23:04:20 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC12' PASSED
+20231025 23:04:20 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:20 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java434 - getAllUerTC13 Execution started
+20231025 23:04:21 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java450 - getAllUerTC13 Execution ended
+20231025 23:04:21 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC13' PASSED
+20231025 23:04:21 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:21 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java464 - getAllUerTC14 Execution started
+20231025 23:04:23 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java484 - getAllUerTC14 Execution ended
+20231025 23:04:23 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC14' PASSED
+20231025 23:04:23 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:23 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java498 - getAllUerTC15 Execution started
+20231025 23:04:24 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java520 - getAllUerTC15 Execution ended
+20231025 23:04:24 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC15' PASSED
+20231025 23:04:24 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:24 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java534 - getAllUerTC16 Execution started
+20231025 23:04:25 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java559 - getAllUerTC16 Execution ended
+20231025 23:04:25 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC16' PASSED
+20231025 23:04:25 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:25 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java573 - getAllUerTC17 Execution started
+20231025 23:04:27 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java590 - getAllUerTC17 Execution ended
+20231025 23:04:27 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'getAllUerTC17' PASSED
+20231025 23:04:27 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:27 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java604 - updateUserNameAPITC18 Execution started
+20231025 23:04:29 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java624 - updateUserNameAPITC18 Execution ended
+20231025 23:04:29 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserNameAPITC18' PASSED
+20231025 23:04:29 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:29 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java638 - updateUserEmailAPITC19 Execution started
+20231025 23:04:29 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java641 - updateUserEmailAPITC19 Execution started
+20231025 23:04:30 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java658 - updateUserEmailAPITC19 Execution ended
+20231025 23:04:30 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserEmailAPITC19' PASSED
+20231025 23:04:30 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:30 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java672 - updateUserLocationAPITC20 Execution started
+20231025 23:04:32 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java692 - updateUserLocationAPITC20 Execution ended
+20231025 23:04:32 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserLocationAPITC20' PASSED
+20231025 23:04:32 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:32 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java705 - updateUserNameAndLocationAPITC21 Execution started
+20231025 23:04:33 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java725 - updateUserNameAndLocationAPITC21 Execution ended
+20231025 23:04:33 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserNameAndLocationAPITC21' PASSED
+20231025 23:04:33 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:33 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java738 - updateUserNameAndEmailAPITC22 Execution started
+20231025 23:04:35 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java758 - updateUserNameAndEmailAPITC22 Execution ended
+20231025 23:04:35 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserNameAndEmailAPITC22' PASSED
+20231025 23:04:35 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:35 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java771 - updateUserNameAndLocationAPITC23 Execution started
+20231025 23:04:36 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java791 - updateUserNameAndLocationAPITC23 Execution ended
+20231025 23:04:36 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'updateUserNameAndLocationAPITC23' PASSED
+20231025 23:04:36 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java13 - Test Started
+20231025 23:04:36 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java805 - deleteUserByIDTC24 Execution started
+20231025 23:04:37 INFO  [main] apiendtoendtest.AppsLoveWorldAPITestScript AppsLoveWorldAPITestScript.java821 - deleteUserByIDTC24 Execution ended
+20231025 23:04:37 INFO  [main] util.TestEventListernerUtility TestEventListernerUtility.java19 - Test 'deleteUserByIDTC24' PASSED
+20231025 23:04:37 ERROR [main] log4testng.Logger Logger.java165 - C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Ambuj_Study_QA\eNexusGlobal_WS\RestAssuredMarketingAPIFramework\test-output\jquery-3.6.0.min.js
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478) ~[?:?]
+	at java.nio.file.Files.newOutputStream(Files.java:220) ~[?:?]
+	at java.nio.file.Files.copy(Files.java:3067) ~[?:?]
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.generateReports(TestNG.java:1134) [testng-7.6.1.jar:7.6.1]
+	at org.testng.TestNG.run(TestNG.java:1072) [testng-7.6.1.jar:7.6.1]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]

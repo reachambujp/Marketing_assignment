@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="23" passed="22" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-24T16:43:50 EDT" name="Suite" finished-at="2023-10-24T16:44:17 EDT" duration-ms="27139">
+  <suite started-at="2023-10-25T23:04:02 EDT" name="Suite" finished-at="2023-10-25T23:04:37 EDT" duration-ms="35708">
     <groups>
     </groups>
-    <test started-at="2023-10-24T16:43:50 EDT" name="Test" finished-at="2023-10-24T16:44:17 EDT" duration-ms="27139">
+    <test started-at="2023-10-25T23:04:02 EDT" name="Test" finished-at="2023-10-25T23:04:37 EDT" duration-ms="35708">
       <class name="com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:50 EDT" name="init" finished-at="2023-10-24T16:43:51 EDT" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:02 EDT" name="init" finished-at="2023-10-25T23:04:02 EDT" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="LoginAPITC2()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:51 EDT" name="LoginAPITC2" finished-at="2023-10-24T16:43:53 EDT" duration-ms="2282" status="FAIL">
+        <test-method signature="LoginAPITC2()[pri:2, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:02 EDT" name="LoginAPITC2" finished-at="2023-10-25T23:04:05 EDT" duration-ms="2910" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -80,7 +80,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:293)
 at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
-at com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript.LoginAPITC2(AppsLoveWorldAPITestScript.java:50)
+at com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript.LoginAPITC2(AppsLoveWorldAPITestScript.java:60)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -115,94 +115,94 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginAPITC2 -->
-        <test-method signature="createUserTC6()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:53 EDT" name="createUserTC6" finished-at="2023-10-24T16:43:54 EDT" duration-ms="1652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUserTC6 -->
-        <test-method signature="deleteUserByIDTC24()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:54 EDT" name="deleteUserByIDTC24" finished-at="2023-10-24T16:43:56 EDT" duration-ms="1149" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteUserByIDTC24 -->
-        <test-method signature="getAllUerTC9()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:56 EDT" name="getAllUerTC9" finished-at="2023-10-24T16:43:57 EDT" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC9 -->
-        <test-method signature="invalidSeverAddressNameTC5()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:57 EDT" name="invalidSeverAddressNameTC5" finished-at="2023-10-24T16:43:57 EDT" duration-ms="559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidSeverAddressNameTC5 -->
-        <test-method signature="updateUserEmailAPITC19()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:57 EDT" name="updateUserEmailAPITC19" finished-at="2023-10-24T16:43:59 EDT" duration-ms="1101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUserEmailAPITC19 -->
-        <test-method signature="updateUserLocationAPITC20()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:43:59 EDT" name="updateUserLocationAPITC20" finished-at="2023-10-24T16:44:00 EDT" duration-ms="1109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUserLocationAPITC20 -->
-        <test-method signature="updateUserNameAndEmailAPITC22()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:00 EDT" name="updateUserNameAndEmailAPITC22" finished-at="2023-10-24T16:44:01 EDT" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateUserNameAndEmailAPITC22 -->
-        <test-method signature="createUserTC7()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:01 EDT" name="createUserTC7" finished-at="2023-10-24T16:44:02 EDT" duration-ms="1153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createUserTC7 -->
-        <test-method signature="getAllUerTC10()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:02 EDT" name="getAllUerTC10" finished-at="2023-10-24T16:44:03 EDT" duration-ms="1298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC10 -->
-        <test-method signature="getAllUerTC11()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:03 EDT" name="getAllUerTC11" finished-at="2023-10-24T16:44:04 EDT" duration-ms="1124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC11 -->
-        <test-method signature="getAllUerTC12()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:04 EDT" name="getAllUerTC12" finished-at="2023-10-24T16:44:06 EDT" duration-ms="1170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC12 -->
-        <test-method signature="getAllUerTC13()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:06 EDT" name="getAllUerTC13" finished-at="2023-10-24T16:44:07 EDT" duration-ms="1241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC13 -->
-        <test-method signature="getAllUerTC14()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:07 EDT" name="getAllUerTC14" finished-at="2023-10-24T16:44:08 EDT" duration-ms="1125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC14 -->
-        <test-method signature="getAllUerTC15()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:08 EDT" name="getAllUerTC15" finished-at="2023-10-24T16:44:09 EDT" duration-ms="1177" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC15 -->
-        <test-method signature="getAllUerTC16()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:09 EDT" name="getAllUerTC16" finished-at="2023-10-24T16:44:10 EDT" duration-ms="1147" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC16 -->
-        <test-method signature="getAllUerTC17()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:10 EDT" name="getAllUerTC17" finished-at="2023-10-24T16:44:11 EDT" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAllUerTC17 -->
-        <test-method signature="invalidDomainNameTC4()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:11 EDT" name="invalidDomainNameTC4" finished-at="2023-10-24T16:44:12 EDT" duration-ms="534" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidDomainNameTC4 -->
-        <test-method signature="invalidProtocolTC3()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:12 EDT" name="invalidProtocolTC3" finished-at="2023-10-24T16:44:12 EDT" duration-ms="562" status="PASS">
+        <test-method signature="invalidProtocolTC3()[pri:3, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:05 EDT" name="invalidProtocolTC3" finished-at="2023-10-25T23:04:06 EDT" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidProtocolTC3 -->
-        <test-method signature="updateUserNameAPITC18()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:12 EDT" name="updateUserNameAPITC18" finished-at="2023-10-24T16:44:14 EDT" duration-ms="1114" status="PASS">
+        <test-method signature="invalidDomainNameTC4()[pri:4, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:06 EDT" name="invalidDomainNameTC4" finished-at="2023-10-25T23:04:07 EDT" duration-ms="701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUserNameAPITC18 -->
-        <test-method signature="updateUserNameAndLocationAPITC21()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:14 EDT" name="updateUserNameAndLocationAPITC21" finished-at="2023-10-24T16:44:15 EDT" duration-ms="1174" status="PASS">
+        </test-method> <!-- invalidDomainNameTC4 -->
+        <test-method signature="invalidSeverAddressNameTC5()[pri:5, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:07 EDT" name="invalidSeverAddressNameTC5" finished-at="2023-10-25T23:04:08 EDT" duration-ms="1011" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUserNameAndLocationAPITC21 -->
-        <test-method signature="updateUserNameAndLocationAPITC23()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:15 EDT" name="updateUserNameAndLocationAPITC23" finished-at="2023-10-24T16:44:16 EDT" duration-ms="1025" status="PASS">
+        </test-method> <!-- invalidSeverAddressNameTC5 -->
+        <test-method signature="createUserTC6()[pri:6, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:08 EDT" name="createUserTC6" finished-at="2023-10-25T23:04:10 EDT" duration-ms="1839" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateUserNameAndLocationAPITC23 -->
-        <test-method signature="createUserDuplicateUserCreationTC8()[pri:0, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@235f4c10]" started-at="2023-10-24T16:44:16 EDT" name="createUserDuplicateUserCreationTC8" finished-at="2023-10-24T16:44:17 EDT" depends-on-methods="com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript.createUserTC6" duration-ms="1203" status="PASS">
+        </test-method> <!-- createUserTC6 -->
+        <test-method signature="createUserTC7()[pri:7, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:10 EDT" name="createUserTC7" finished-at="2023-10-25T23:04:11 EDT" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTC7 -->
+        <test-method signature="createUserDuplicateUserCreationTC8()[pri:8, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:11 EDT" name="createUserDuplicateUserCreationTC8" finished-at="2023-10-25T23:04:13 EDT" duration-ms="1521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserDuplicateUserCreationTC8 -->
+        <test-method signature="getAllUerTC9()[pri:9, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:13 EDT" name="getAllUerTC9" finished-at="2023-10-25T23:04:15 EDT" duration-ms="2594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC9 -->
+        <test-method signature="getAllUerTC10()[pri:10, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:15 EDT" name="getAllUerTC10" finished-at="2023-10-25T23:04:17 EDT" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC10 -->
+        <test-method signature="getAllUerTC11()[pri:11, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:17 EDT" name="getAllUerTC11" finished-at="2023-10-25T23:04:18 EDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC11 -->
+        <test-method signature="getAllUerTC12()[pri:12, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:18 EDT" name="getAllUerTC12" finished-at="2023-10-25T23:04:20 EDT" duration-ms="1629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC12 -->
+        <test-method signature="getAllUerTC13()[pri:13, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:20 EDT" name="getAllUerTC13" finished-at="2023-10-25T23:04:21 EDT" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC13 -->
+        <test-method signature="getAllUerTC14()[pri:14, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:21 EDT" name="getAllUerTC14" finished-at="2023-10-25T23:04:23 EDT" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC14 -->
+        <test-method signature="getAllUerTC15()[pri:15, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:23 EDT" name="getAllUerTC15" finished-at="2023-10-25T23:04:24 EDT" duration-ms="1358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC15 -->
+        <test-method signature="getAllUerTC16()[pri:16, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:24 EDT" name="getAllUerTC16" finished-at="2023-10-25T23:04:25 EDT" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC16 -->
+        <test-method signature="getAllUerTC17()[pri:17, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:25 EDT" name="getAllUerTC17" finished-at="2023-10-25T23:04:27 EDT" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUerTC17 -->
+        <test-method signature="updateUserNameAPITC18()[pri:18, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:27 EDT" name="updateUserNameAPITC18" finished-at="2023-10-25T23:04:29 EDT" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNameAPITC18 -->
+        <test-method signature="updateUserEmailAPITC19()[pri:19, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:29 EDT" name="updateUserEmailAPITC19" finished-at="2023-10-25T23:04:30 EDT" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserEmailAPITC19 -->
+        <test-method signature="updateUserLocationAPITC20()[pri:20, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:30 EDT" name="updateUserLocationAPITC20" finished-at="2023-10-25T23:04:32 EDT" duration-ms="1837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserLocationAPITC20 -->
+        <test-method signature="updateUserNameAndLocationAPITC21()[pri:21, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:32 EDT" name="updateUserNameAndLocationAPITC21" finished-at="2023-10-25T23:04:33 EDT" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNameAndLocationAPITC21 -->
+        <test-method signature="updateUserNameAndEmailAPITC22()[pri:22, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:33 EDT" name="updateUserNameAndEmailAPITC22" finished-at="2023-10-25T23:04:35 EDT" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNameAndEmailAPITC22 -->
+        <test-method signature="updateUserNameAndLocationAPITC23()[pri:23, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:35 EDT" name="updateUserNameAndLocationAPITC23" finished-at="2023-10-25T23:04:36 EDT" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserNameAndLocationAPITC23 -->
+        <test-method signature="deleteUserByIDTC24()[pri:24, instance:com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript@1af05b03]" started-at="2023-10-25T23:04:36 EDT" name="deleteUserByIDTC24" finished-at="2023-10-25T23:04:37 EDT" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserByIDTC24 -->
       </class> <!-- com.restassured.apiendtoendtest.AppsLoveWorldAPITestScript -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -15,6 +15,12 @@ import com.restassured.pojo.UpdateDataPOJO;
 import com.restassured.test.helper.ReusableMethodsHelper;
 import com.restassured.util.PropertiesUtility;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
@@ -31,9 +37,13 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	private static final Logger logger=LogManager.getLogger(AppsLoveWorldAPITestScript.class);
 
 	// TC2- Login API -Negative
-	@Test
+	@Test(priority = 2)
+	@Description("Verify the login API Negative test case")
+	@Epic("EP02")
+	@Feature("Feature1:Login")
+	@Story("Story:Invalid Login")
+	@Severity(SeverityLevel.MINOR)
 	public void LoginAPITC2() {
-		
 		
 		restAPIProperties = propUtil.loadPropFile(RestAPIConstant.REST_API_PROPERTIES_FILE_PATH);
 		logger.info("LoginAPITC2 Execution started");
@@ -60,7 +70,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC3- HTTPS Protocol API support - Negative
-	@Test
+	@Test(priority = 3)
+	@Description("Verify HTTPS Protocol API support Negative test case")
+	@Epic("EP02")
+	@Feature("Feature2:Login")
+	@Story("Story:Invalid Login")
+	@Severity(SeverityLevel.CRITICAL)
 	public void invalidProtocolTC3() {
 		
 		logger.info("invalidProtocolTC3 Execution started");
@@ -87,7 +102,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC4-Change Top level API Domain to incorrect value - Negative
-	@Test
+	@Test(priority = 4)
+	@Description("Verify Changes in Top level API Domain to incorrect value Negative test case")
+	@Epic("EP02")
+	@Feature("Feature3:Login")
+	@Story("Story:Invalid Login")
+	@Severity(SeverityLevel.CRITICAL)
 	public void invalidDomainNameTC4() {
 		
 		logger.info("invalidDomainNameTC4 Execution started");
@@ -113,7 +133,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC5-Change in server address name - Negative
-	@Test
+	@Test(priority =5 )
+	@Description("Verify Change in server address name Negative test case")
+	@Epic("EP02")
+	@Feature("Feature4:Login")
+	@Story("Story:Invalid Login")
+	@Severity(SeverityLevel.CRITICAL)
 	public void invalidSeverAddressNameTC5() {
         
 		logger.info("invalidSeverAddressNameTC5 Execution started");
@@ -137,7 +162,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC6- Create New User -Positive
-	@Test
+	@Test(priority =6)
+	@Description("Verify Create New User -Positive")
+	@Epic("EP03")
+	@Feature("Feature5:Create New User")
+	@Story("Story:Create new record")
+	@Severity(SeverityLevel.NORMAL)
 	public void createUserTC6() {
 		
 		// logger.info("createUserTC6 Execution started - Step1");          
@@ -168,7 +198,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC7- Create New User -Negative Do not pass Email in payload
-	@Test
+	@Test(priority =7)
+	@Description("Verify Create New User -Negative TC-Do not pass Email in payload")
+	@Epic("EP03")
+	@Feature("Feature6:Create New User")
+	@Story("Story:Create new record without passing Email")
+	@Severity(SeverityLevel.CRITICAL)
 	public void createUserTC7() {
 		
 		logger.info("createUserTC7 Execution started");
@@ -201,14 +236,18 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC8- Create New User -Negative Create New User again with same data as in TC6
-	@Test(dependsOnMethods =  "createUserTC6" )
+	@Test(priority =8)
+	@Description("Verify Create New User -Negative TC Create New User again with same data as in TC6")
+	@Epic("EP03")
+	@Feature("Feature7:Create New User")
+	@Story("Story:Create new record with same data as in TC6")
+	@Severity(SeverityLevel.CRITICAL)
 	public void createUserDuplicateUserCreationTC8() {
 		
 		logger.info("createUserDuplicateUserCreationTC8 Execution started");
 		Properties restAPIProperties = propUtil.loadPropFile(RestAPIConstant.REST_API_PROPERTIES_FILE_PATH);
 		extractedtoken = LoginAPITC1();
-		
-
+	
 		CreateDataPOJO createDataPojo = new CreateDataPOJO();
 		createDataPojo.setName(restAPIProperties.getProperty("name"));
 		createDataPojo.setEmail(restAPIProperties.getProperty("email_New"));
@@ -236,7 +275,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC9- Get All Users with page number- Positive
 
-	@Test
+	@Test(priority =9)
+	@Description("Verify Get All Users with page number- Positive")
+	@Epic("EP04")
+	@Feature("Feature8:GET New User")
+	@Story("Story:Get All Users with page number")
+	@Severity(SeverityLevel.MINOR)
 	public void getAllUerTC9() {
 		
 		logger.info("getAllUerTC9 Execution started");
@@ -273,7 +317,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	// TC10- GetAllUsers with page number where page number contains leading 0's.-
 	// Positive
 
-	@Test
+	@Test(priority =10)
+	@Description("Verify GetAllUsers with page number where page number contains leading 0's.-")
+	@Epic("EP04")
+	@Feature("Feature9:GET New User with page numnber leading 0's.")
+	@Story("Story:Get All Users ")
+	@Severity(SeverityLevel.MINOR)
 	public void getAllUerTC10() {
 		
 		logger.info("getAllUerTC10 Execution started");
@@ -310,7 +359,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	// TC11- GetAllUsers by keeping the query parameter page value as blank-
 	// Negative
 
-	@Test
+	@Test(priority =11)
+	@Description("GetAllUsers by keeping the query parameter page value as blank-")
+	@Epic("EP04")
+	@Feature("Feature10:GET New User with query parameter as blank")
+	@Story("Story:Get All Users ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getAllUerTC11() {
 		
 		logger.info("getAllUerTC11 Execution started");
@@ -335,7 +389,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC12- GetUserByID - Positive
 
-	@Test
+	@Test(priority =12)
+	@Description("GetUserByID - Positive")
+	@Epic("EP05")
+	@Feature("Feature11:GET User by ID ")
+	@Story("Story:Get Users ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getAllUerTC12() {
 		
 		logger.info("getAllUerTC12 Execution started");
@@ -364,7 +423,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC13- GetUserByID - Negative
 
-	@Test
+	@Test(priority =13)
+	@Description("GetUserByID - Negative")
+	@Epic("EP05")
+	@Feature("Feature12:GET User by ID ")
+	@Story("Story:Get Users  ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getAllUerTC13() {
 		
 		logger.info("getAllUerTC13 Execution started");
@@ -389,7 +453,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC14- GetUserByID - Negative(Lower Boundary value)
 
-	@Test
+	@Test(priority =14)
+	@Description("GetUserByID - Negative(Lower Boundary value)")
+	@Epic("EP05")
+	@Feature("Feature13:GET User by ID ")
+	@Story("Story:Get Users  ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getAllUerTC14() {
 		
 		logger.info("getAllUerTC14 Execution started");
@@ -418,7 +487,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC15- GetUserByID - Negative(Higher Boundary value)
 
-	@Test
+	@Test(priority =15)
+	@Description("GetUserByID - Negative(Higher Boundary value)")
+	@Epic("EP05")
+	@Feature("Feature14:GET User by ID ")
+	@Story("Story:Get Users  ")
+	@Severity(SeverityLevel.CRITICAL)
 	public void getAllUerTC15() {
 		
 		logger.info("getAllUerTC15 Execution started");
@@ -449,7 +523,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC16- GetAllUsers by dropping the query parameter - Negative
 
-	@Test
+	@Test(priority =16)
+	@Description("GetAllUsers by dropping the query parameter - Negative")
+	@Epic("EP05")
+	@Feature("Feature15:GET All User without query paramter ")
+	@Story("Story:Get All Users  ")
+	@Severity(SeverityLevel.MINOR)
 	public void getAllUerTC16() {
 		
 		logger.info("getAllUerTC16 Execution started");
@@ -483,7 +562,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC17- GetAllUsers by invalid Endpoint - Negative - Negative
 
-	@Test
+	@Test(priority =17)
+	@Description("GetAllUsers by invalid Endpoint - Negative ")
+	@Epic("EP05")
+	@Feature("Feature16:GET User by invaild Endpoint ")
+	@Story("Story:GetALLUsers  ")
+	@Severity(SeverityLevel.NORMAL)
 	public void getAllUerTC17() {
 		
 		logger.info("getAllUerTC17 Execution started");
@@ -509,7 +593,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC18- UpdateUserByID - Name Update
 
-	@Test
+	@Test(priority =18)
+	@Description("UpdateUserByID - Name Update ")
+	@Epic("EP06")
+	@Feature("Feature17:Update User Name")
+	@Story("Story:UpdateUserName  ")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserNameAPITC18() {
 		
 		logger.info("updateUserNameAPITC18 Execution started");
@@ -538,7 +627,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC19- UpdateUserByID - Email Update
 
-	@Test
+	@Test(priority =19)
+	@Description("UpdateUserByID - Email Update ")
+	@Epic("EP06")
+	@Feature("Feature18:Update User Email")
+	@Story("Story:UpdateUserEmai")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserEmailAPITC19() {
 		
 		logger.info("updateUserEmailAPITC19 Execution started");
@@ -567,7 +661,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC20- UpdateUserByID - location Update
 
-	@Test
+	@Test(priority =20)
+	@Description("UpdateUserByID - location Update ")
+	@Epic("EP06")
+	@Feature("Feature19:Update User location")
+	@Story("Story:UpdateUserlocation")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserLocationAPITC20() {
 		
 		logger.info("updateUserLocationAPITC20 Execution started");
@@ -595,7 +694,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC21- UpdateUserByID - Name and Location
 
-	@Test
+	@Test(priority =21)
+	@Description("UpdateUserByID - Name and Location ")
+	@Epic("EP06")
+	@Feature("Feature20:Update User Name and Location")
+	@Story("Story:UpdateUserNameAndlocation")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserNameAndLocationAPITC21() {
 		
 		logger.info("updateUserNameAndLocationAPITC21 Execution started");
@@ -623,7 +727,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC22- UpdateUserByID - Name and Email
 
-	@Test
+	@Test(priority =22)
+	@Description("UpdateUserByID - Name and Email ")
+	@Epic("EP06")
+	@Feature("Feature21:Update User Name and Email")
+	@Story("Story:UpdateUserNameAndEmail")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserNameAndEmailAPITC22() {
 		
 		logger.info("updateUserNameAndEmailAPITC22 Execution started");
@@ -651,7 +760,12 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 
 	// TC23- UpdateUserByID - Email and Location
 
-	@Test
+	@Test(priority =23)
+	@Description("UpdateUserByID - Location and Email ")
+	@Epic("EP06")
+	@Feature("Feature22:Update User Location and Email")
+	@Story("Story:UpdateUserLocationAndEmail")
+	@Severity(SeverityLevel.NORMAL)
 	public void updateUserNameAndLocationAPITC23() {
 		
 		logger.info("updateUserNameAndLocationAPITC23 Execution started");
@@ -679,8 +793,13 @@ public class AppsLoveWorldAPITestScript extends ReusableMethodsHelper {
 	}
 
 	// TC24 DeleteUserByID
-
-	@Test
+    
+	@Test(priority =24)
+	@Description("DeleteUserByID ")
+	@Epic("EP07")
+	@Feature("Feature23:DeleteUserByID")
+	@Story("Story:DeleteUserByID")
+	@Severity(SeverityLevel.NORMAL)
 	public void deleteUserByIDTC24() {
 		
 		logger.info("deleteUserByIDTC24 Execution started");
